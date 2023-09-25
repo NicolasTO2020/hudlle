@@ -1,0 +1,39 @@
+@media (max-width: 1120px){
+    main{
+        display: flex;
+        flex-direction: column;
+        height:auto;
+        text-align: center;
+        align-items: center;
+        margin-top: 30px;
+        
+    }
+
+    .tela-principal{
+        width: 90%;
+    }
+
+    .texto-principal{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .icone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .texto-principal button{
+        width: 70%;
+    }
+
+    footer{
+        margin-top: 30px;
+    }
+}
